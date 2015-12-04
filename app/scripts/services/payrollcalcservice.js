@@ -19,8 +19,8 @@ angular.module('yeomanAppApp')
       }; //end the first method
 
     this.partnersPayroll = function(serviceFee, tax) {
-      var bonus = serviceFee - tax;
-      return bonus;
+      var bonusTotal = serviceFee - tax;
+      return bonusTotal;
     }
 
   });
