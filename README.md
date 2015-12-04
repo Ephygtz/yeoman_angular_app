@@ -10,3 +10,12 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## About
+
+Working with angular generators:
+  `angular:controller`
+  `angular:route`
+  `angular:directive`
+  `angular:service`
+  `angular:view`
