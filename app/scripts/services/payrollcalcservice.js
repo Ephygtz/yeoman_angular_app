@@ -13,14 +13,15 @@ angular.module('yeomanAppApp')
     this.staffPayroll = function(basicSal, allowances, tax, nssf) {
       var netpay = (basicSal + allowances) - (tax + nssf);
       if (netpay > 20000) {
-        return netpay + "Come receive an award";
+        return "Your pay is KES" + netpay + " <br /> Come receive an award";
       } else {
         return netpay + "Work harder";
-      }; //end the first method
+      } //end the first method
 
     this.partnersPayroll = function(serviceFee, tax) {
       var bonusTotal = serviceFee - tax;
-      return bonusTotal;
-    }
+      return bonusTotal + " We appreciate your input in our growth";
+    };
 
+    };
   });
