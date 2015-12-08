@@ -8,10 +8,8 @@
  * Controller of the yeomanAppApp
  */
 angular.module('yeomanAppApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function ($scope, myFactory) {
+
+        $scope.movies =   myFactory.query();
+
   });
